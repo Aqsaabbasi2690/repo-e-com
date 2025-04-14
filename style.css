@@ -212,68 +212,49 @@ textarea:focus-visible {
 
 /***** Navbar Section *****/
 
-.top_txt {
-  background-color: var(--buttonColor);
-  color: var(--backgroundColor);
-
-  & .head_txt p {
-    font-size: 1.5rem;
-  }
-
-  & .sing_in_up {
-    display: flex;
-    gap: 3.2rem;
-  }
+/***** Logo Styling *****/
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
-.section-navbar {
-  width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+.navbar-brand img.logo {
+  width: 180px; /* Set a fixed width instead of percentage for better control */
+  height: auto;
+  max-height: 60px; /* Ensure it doesn't get too tall */
 }
 
+/* Make sure the logo is properly visible */
+.logo {
+  object-fit: contain; /* Ensures the logo maintains its aspect ratio */
+}
+
+/* For the footer logo */
+.content_1 img:first-of-type {
+  width: 180px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* Ensure proper spacing around the logo in header */
 .section-navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.9rem; /* we override the main container padding property  */
+  padding: 1.2rem 1.9rem; /* Adjusted padding to better accommodate the logo */
 }
 
-.section-navbar img {
-  width: 25%;
-
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .navbar-brand img.logo {
+    width: 150px; /* Slightly smaller on medium screens */
+  }
 }
 
-.section-navbar .navbar ul {
-  display: flex;
-  gap: 3.2rem;
-  text-transform: capitalize;
-  align-items: center;
-
-  & li a {
-    color: var(--heading-color);
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    display: inline-block;
-    position: relative;
-
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: -0.3rem;
-      left: 0;
-      width: 0%;
-      border-bottom: 0.1rem solid var(--main-color);
-      transition: all 0.3s linear;
-    }
+@media screen and (max-width: 480px) {
+  .navbar-brand img.logo {
+    width: 120px; /* Even smaller on mobile screens */
   }
-  & li a:hover {
-    color: var(--main-color);
-  }
-
-  & li a:hover:after {
-    width: 100%;
+  
+  .section-navbar .container {
+    padding: 1rem 1.5rem; /* Less padding on mobile */
   }
 }
 
