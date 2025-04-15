@@ -266,7 +266,9 @@ textarea:focus-visible {
   }
 } 
 
-
+.logo {
+  height: 20%;
+}
 
 
 /***** Navbar End Section *****/
