@@ -235,6 +235,7 @@ textarea:focus-visible {
 }
 .section-navbar img {
   width: 25%;
+  margin-bottom:2px;
 }
 .section-navbar .navbar ul {
   display: flex;
@@ -266,9 +267,7 @@ textarea:focus-visible {
   }
 } 
 
-.logo {
-  height: 20%;
-}
+
 
 
 /***** Navbar End Section *****/
