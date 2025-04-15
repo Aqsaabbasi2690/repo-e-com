@@ -2,7 +2,7 @@ const footerHTML = `
   <footer class="section-footer">
     <div class="footer-container container">
       <div class="content_1">
-        <img src="./images/logo.png" alt="logo" />
+        <img src="./images/logo ecom.png" alt="logo" />
         <p>
           Welcome to Thapa EcomStore, <br />
           your ultimate destination for
@@ -41,7 +41,7 @@ const footerHTML = `
     </div>
     <div class="f-design">
       <div class="f-design-txt">
-        <p>Design and Code by Thapa Technical</p>
+        <p>Design and Code </p>
       </div>
     </div>
   </footer>`;
