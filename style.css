@@ -235,6 +235,7 @@ textarea:focus-visible {
 }
 .section-navbar img {
 /* height: 40px;    */
+  padding: 1rem;
   width: 25%;    
   display: block;
 }
