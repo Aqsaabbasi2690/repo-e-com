@@ -234,9 +234,8 @@ textarea:focus-visible {
   padding: 1.9rem; /* we override the main container padding property  */
 }
 .section-navbar img {
-/* height: 40px;    */
-  margin:0;
-  padding:none;
+height: 40px;    
+ 
   width: 25%;    
   display: block;
 }
