@@ -233,10 +233,16 @@ textarea:focus-visible {
   align-items: center;
   padding: 1.9rem; /* we override the main container padding property  */
 }
+.section-navbar .navbar-brand {
+  display: flex;
+  align-items: center; /* vertically centers the logo */
+    padding: 0;
+  margin: 0;
+}
 .section-navbar img {
-height: 40px;    
- 
-  width: 25%;    
+ height: 40px;
+  width: auto;
+  object-fit: contain;
   display: block;
 }
 .section-navbar .navbar ul {
