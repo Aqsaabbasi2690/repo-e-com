@@ -241,7 +241,7 @@ textarea:focus-visible {
 }
 .section-navbar img {
  height: 70px;
-  width: auto;
+  width: 25%;
   object-fit: contain;
   display: block;
 }
