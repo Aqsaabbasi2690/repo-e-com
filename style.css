@@ -235,7 +235,7 @@ textarea:focus-visible {
 }
 .section-navbar img {
 height:40px;
-width:40px;
+width:25px;
 }
 .section-navbar .navbar ul {
   display: flex;
